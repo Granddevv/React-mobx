@@ -1,9 +1,5 @@
 # ![React + Mobx Example App](project-logo.png)
 
-> ### React + Mobx codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
-
-### [Demo](https://react-mobx.realworld.io/)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
-
 Originally created for this [GH issue](https://github.com/reactjs/Redux/issues/1353). The codebase is now feature complete; please submit bug fixes via pull requests & feedback via issues.
 
 We're currently working on some docs for the codebase (explaining where functionality is located, how it works, etc) but most things should be self explanatory if you have a minimal understanding of React/Mobx.
@@ -22,9 +18,9 @@ To get the frontend running locally:
 
 ### Making requests to the backend API
 
-For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/api) which contains all routes & responses for the server.
+For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here]which contains all routes & responses for the server.
 
-The source code for the backend server (available for Node, Rails and Django) can be found in the [main RealWorld repo](https://github.com/gothinkster/realworld).
+The source code for the backend server (available for Node, Rails and Django) can be found in the [main RealWorld repo].
 
 If you want to change the API URL to a local server, simply edit `src/agent.js` and change `API_ROOT` to the local server's URL (i.e. `localhost:3000/api`)
 
@@ -64,4 +60,3 @@ The example application is a social blogging site (i.e. a Medium.com clone) call
 
 <br />
 
-[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
