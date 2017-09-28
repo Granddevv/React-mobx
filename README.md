@@ -1,4 +1,3 @@
-# ![React + Mobx Example App](project-logo.png)
 
 Originally created for this [GH issue](https://github.com/reactjs/Redux/issues/1353). The codebase is now feature complete; please submit bug fixes via pull requests & feedback via issues.
 
